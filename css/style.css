@@ -51,7 +51,120 @@ a{
     outline: none;
     background-color: transparent;
     color: #1f1f1f;
-    font-family: calibri;
     font-size: 1rem;
     padding: 0px 10px;
+}
+
+.searchbox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: poppins;
+
+}
+
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+}
+
+.section1 img{
+    height: 300px;
+}
+
+.section1button{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+
+}
+
+.section1button h1, h2{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0,.08);
+    letter-spacing: 3px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+
+span{
+    color: #7a72ff;
+
+}
+
+.section1button h1{
+    letter-spacing: 28px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% / 50%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+    
+}
+
+.btn:hover{
+    color: #FFF;
+    background-color: #6e64ff;
+    transition: all ease 0.75s;
+
+}
+
+.iconarea{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+
+.iconarea a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.iconarea a i{
+    color: rgba(39,39,39,.8);
+}
+
+.iconarea a:hover .fa-facebook-f{
+    color: #3b5998;
+}
+.iconarea a:hover .fa-twitter{
+    color: #00acee;
+}
+.iconarea a:hover .fa-instagram{
+    color: #3f729b;
+}
+.iconarea a:hover .fa-youtube{
+    color: #ff0000;
 }
